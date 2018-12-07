@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>postion案例-购物车</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="cart_btn">
+    <span><i>155</i></span>
+    <a href="./pay.html" target="">去购物车结算</a>
+    <b></b>
+    <!--b元素是最右边的小三角-->
+  </div>
+</body>
+
+<style>
+  .cart_btn {
+    width: 120px;
+    height: 30px;
+    /* background: url(../images/picA.png) no-repeat -17px 7px#f7f7f7; */
+    border: 1px solid #eee;
+    padding-left: 30px;
+    position: relative;
+    /* _padding-top: 5px;
+    _height: 25px; */
+  }
+
+  .cart_btn span {
+    /* background: url(../images/picA.png) no-repeat -36px -54px; */
+    background-color: red;
+    padding-left: 7px;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+  }
+
+  .cart_btn span i {
+    float: left;
+    height: 20px;
+    background: url(../images/picA.png) no-repeat right-25px;
+    padding-right: 5px;
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .cart_btn a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 30px;
+  }
+
+  .cart_btn b {
+    display: inline-block;
+    border-color: transparent transparent transparent #CCCCCC;
+    border-style: dashed dashed dashed solid;
+    border-width: 5px;
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+</style>
+
+</html>
